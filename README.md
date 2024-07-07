@@ -1,1 +1,2 @@
-# Fine-Tuning-
+# Fine-Tune LLM from Huggingface
+- In this, we will fine-tune an existing LLM from Hugging Face for enhanced dialogue summarization. We will use the [FLAN-T5](https://huggingface.co/docs/transformers/model_doc/flan-t5) model, which provides a high quality instruction tuned model and can summarize text out of the box. To improve the inferences, we will explore a full fine-tuning approach and evaluate the results with ROUGE metrics. Then we will perform Parameter Efficient Fine-Tuning (PEFT), evaluate the resulting model and see that the benefits of PEFT outweigh the slightly-lower performance metrics.
